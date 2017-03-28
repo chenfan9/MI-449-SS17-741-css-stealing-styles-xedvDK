@@ -1,0 +1,65 @@
+h1 {
+  font-size: 70px;
+}
+
+.first:hover {
+  color: #98c379;
+}
+
+.second:hover {
+  color: #56b6c2;
+}
+
+.third:hover {
+  color: #c6ad00;
+}
+
+.fourth:hover {
+  color: #b400b9;
+}
+
+input {
+  font-size: 16px;
+  font-family: Merriweather;
+  width: 300px;
+  padding: 6px 10px;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+  box-shadow: none;
+  display: block;
+}
+
+input:focus {
+  border: 1px solid #07682c;
+  outline: 0;
+}
+
+button {
+  color: #fff;
+  background-color: #6772e5;
+  margin: 10px;
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  border: 0;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+button:focus {
+  outline: none;
+}
